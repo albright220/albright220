@@ -3,5 +3,5 @@
 ### Hello World.  
 
 
-**Expected Plug:**
+**\[Expected Plug\]:**
 [Project List](ProjectList.md)
