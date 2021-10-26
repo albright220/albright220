@@ -1,6 +1,6 @@
 `[root](/../../)` - project root folder
 
-`[switch](/../../tree/test)` - link to another brunch
+`[switch](/../../tree/test)` - link to another branch
 
 `[edit](/../../edit/master/doc/readme.md)` - open in editor
 
@@ -10,7 +10,7 @@
 
 `[blamed](/../../blame/master/doc/readme.md)` - blame mode
 
-`[row](/../../raw/master/doc/readme.md)` - row mode (will redirect)
+`[row](/../../raw/master/doc/readme.md)` - raw mode (will redirect)
 
 `[new](/../../new/master/doc/)` - ask to create new file
 
