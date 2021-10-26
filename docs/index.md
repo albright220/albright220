@@ -6,5 +6,5 @@
 **\[Links\]:**  
 [Project List Test](ProjectList.md)  
 [Notes](Notes.md)  
-[root](/../../)  
+[home](/../../)  
 [TestGHPages](/../../../TestGHPages/index.md)  
