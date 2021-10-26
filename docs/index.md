@@ -5,3 +5,5 @@
 
 **\[Expected Plug\]:**
 [Project List](ProjectList.md)
+
+[Notes](Notes.md)
