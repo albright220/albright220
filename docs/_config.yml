@@ -7,7 +7,7 @@ search_full_content: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-repository: amstangl/ic-site
+repository: albright220/albright220.github.io/docs
 
 # Outputting
 permalink: /:categories/:title/
