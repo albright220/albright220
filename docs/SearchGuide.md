@@ -1,5 +1,4 @@
 # Book Search Guide: Pounce/Pounce+ and UofM Campuses Databases
-
 This guide will first layout the key points of using an advanced search to find materials within our database, and then provide a template of sample
 questions and how you would translate them into search conditions.  
 
@@ -16,15 +15,22 @@ These categories narrow down the fields in which given keywords will be looked f
 
 ### Second Box: Search Parameters  
 The parameters will decide how keywords will be looked for within a given category.  
-- Contains: How you mihgt normally think of a keyword search, this parameter searches for any instance of the keywords.
+- Contains: How you mihgt normally think of a keyword search, this parameter searches for any instance of the keywords. This will be the default, which you will use most of the time.
 - Is (exact): This parameter will only find things that exactly match the given keywords within a selected category.
 - Starts with: This paremeter will find anything that starts with the given keywords within a selected category.  
 
 ## Taking Questions and Translating Them Into Search Parameters  
 Following are a list of questions you might hear from a patron and how you should connect them to a book search.  
-
 ### "Do you have \[Book Title\] by \[Author's Name\]?"  
 Here you will search using both tile and author name. Most of the time, book titles will be different from how they are normally called, so it is easier
-when you aren't certain you have the exact title to use the **contains** search parameter.  
+when you aren't certain you have the exact title to use the default **contains** search parameter.  
 
-### T
+### "Do you have a book about ____?"  
+<p> Here you will search using the Subject category. </p>  
+
+### "Do you have any books by ____?"  
+<p> A simple Author/creator search. </p>  
+
+### "I can't remember the title, but it was about ____."  
+<p> Here you might think to do a general keyword search, but it would be more helpful to serach by subject and keyword both. </p>  
+
