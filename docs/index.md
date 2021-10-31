@@ -8,3 +8,4 @@
 [Notes](Notes.md)  
 [home](/../../)  
 [TestGHPages](/../../../TestGHPages/index.md)  
+[SearchGuide](SearchGuide.md)
