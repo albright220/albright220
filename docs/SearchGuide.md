@@ -22,6 +22,9 @@ The parameters will decide how keywords will be looked for within a given catego
 
 ## Taking Questions and Translating Them Into Search Parameters  
 Following are a list of questions you might hear from a patron and how you should connect them to a book search.  
+
 ### "Do you have \[Book Title\] by \[Author's Name\]?"  
 Here you will search using both tile and author name. Most of the time, book titles will be different from how they are normally called, so it is easier
-when you aren't certain you have the exact title to use the **contains** search parameter.
+when you aren't certain you have the exact title to use the **contains** search parameter.  
+
+### T
