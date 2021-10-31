@@ -21,16 +21,16 @@ The parameters will decide how keywords will be looked for within a given catego
 
 ## Taking Questions and Translating Them Into Search Parameters  
 Following are a list of questions you might hear from a patron and how you should connect them to a book search.  
-### "Do you have ____ by ____?"  
+### "Do you have ________ by ________?"  
 Here you will search using both tile and author name. Most of the time, book titles will be different from how they are normally called, so it is easier
 when you aren't certain you have the exact title to use the default **contains** search parameter.  
 
-### "Do you have a book about ____?"  
+### "Do you have a book about ________?"  
 <p> Here you will search using the Subject category. </p>  
 
-### "Do you have any books by ____?"  
+### "Do you have any books by ________?"  
 <p> A simple Author/creator search. </p>  
 
-### "I can't remember the title, but it was about ____."  
+### "I can't remember the title, but it was about ________."  
 <p> Here you might think to do a general keyword search, but it would be more helpful to serach by subject and keyword both. </p>  
 
