@@ -38,10 +38,11 @@ Here you might think to do a general keyword search, but it would be more helpfu
 Now that you've seen how the advanced search is set up and some common types of searches, try finding the books below through advanced search for Pounce/Pounce+ and UofM Campuses. 
 
 
-<button onclick="result1()">Results</button>
+<button onclick="result1()">Results</button> 
+
 <div id="result1">
   Would you look at that.
-</div>
+</div> 
 
 <script>
 function result1() {
