@@ -38,21 +38,22 @@ Here you might think to do a general keyword search, but it would be more helpfu
 Now that you've seen how the advanced search is set up and some common types of searches, try finding the books below through advanced search for Pounce/Pounce+ and UofM Campuses. 
 
 
-<button onclick="result1()">Results</button> 
+<style>
+    .hide{
+        display: none;
+    }
+</style>
 
-<div id="result1">
-  Would you look at that.
+<button onclick="result()">Show Results</button> 
+<div id="result" class="hide">
+  <p>Would you look at that.</p>
 </div> 
 
 <script>
-function result1() {
-  var x = document.getElementById("result1");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+function result() {
+  var result = document.getElementById('result');
+  myDiv.classList.toggle('hide');
 }
-
+</script>
 
 
