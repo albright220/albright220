@@ -44,10 +44,10 @@ Searching by author J.R.R Tolkien, find the first book in the Lord of the Rings 
 }
 </style>
 
-<button onclick="myFunction(next1)">Next Book</button>
+<button onclick="myFunction("next1")">Next Book</button>
 <div id='next1' class="hide">
     Using a keyword search with at most two keywords, find the book "China and the West: Music, Representation, and Reception".
-    <button onclick="myFunction(next2)">Next Book</button>
+    <button onclick="myFunction("next2")">Next Book</button>
     <div id='next2' class="hide">
         Find a book related to rhetoric that was created in 1978 and has been published by the Cornell University Press.
     </div>
@@ -55,7 +55,7 @@ Searching by author J.R.R Tolkien, find the first book in the Lord of the Rings 
 
 <script>
 function myFunction(id) {
-    var myDiv = document.getElementById('id');
+    var myDiv = document.getElementById(id);
     myDiv.classList.toggle("hide");
 }
 </script>
