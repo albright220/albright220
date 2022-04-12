@@ -4,8 +4,5 @@
 
 
 **\[Links\]:**  
-[Project List Test](ProjectList.md)  
-[Notes](Notes.md)  
 [home](/../../)  
-[TestGHPages](/../../../TestGHPages/index.md)  
-[SearchGuide](SearchGuide.md)
+[Angular Expansion Panel Doc/Guide](CategoryExpansionPanelsDocumentation.md)
