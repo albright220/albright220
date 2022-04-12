@@ -1,13 +1,13 @@
 # Category Expansion Panels: Generation and Testing
 
 ---
-| Table of Contents |
-| ----------- |
-| [Overview and Background](#background) |
-| [Material UI Expansion Panel](#mat-ui-expanse) |
-| [Angular Tools: ngFor, ngClass, and Interpolation](#ng-tools) |
+| Table of Contents                                              |
+| -----------------                                              |
+| [Overview and Background](#background)                         |
+| [Material UI Expansion Panel](#mat-ui-expanse)                 |
+| [Angular Tools: ngFor, ngClass, and Interpolation](#ng-tools)  |
 | [Auto-generating Expansion Panels by Category](#create-panels) |
-| [Testing Expansion Panels With Cypress](#cy-testing) |
+| [Testing Expansion Panels With Cypress](#cy-testing)           |
 
 ## Overview and Background {#background}
 
