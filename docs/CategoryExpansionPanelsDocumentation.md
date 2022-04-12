@@ -6,7 +6,7 @@
 | -----------------                                              |
 | [Overview and Background](#Overview-and-Background)            |
 | [Material UI Expansion Panel](#Material-UI-Expansion-Panel)    |
-| [Angular Tools: ngFor, ngClass, and Interpolation](#Angular-Tools:-ngFor,-ngClass,-and-Interpolation)  |
+| [Angular Tools](#Angular-Tools)  |
 | [Auto-generating Expansion Panels by Category](#Auto-generating-Expansion-Panels-by-Category) |
 | [Testing Expansion Panels With Cypress](#Testing-Expansion-Panels-With-Cypress) |
 
@@ -22,7 +22,7 @@ A `<mat-expansion-panel>` is a component from the [Angular Material UI component
 
 When using multiple `<mat-expansion-panel>`, you can nest them within a `<mat-accordion>`, which allows you to control aspects of all panels such as opening and closing, and logically group them together.
 
-### Angular Tools: ngFor, ngClass, and Interpolation
+### Angular Tools
 
 #### What is `ngForOf`?
 
