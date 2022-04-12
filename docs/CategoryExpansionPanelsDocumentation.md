@@ -187,7 +187,7 @@ For the title text, we use Angular interpolation syntax to display the `productC
 
 Lastly let's look at the `<mat-nav-list>`:
 
-<!-- {% endraw %} -->
+<!-- {% raw %} -->
 ```HTML
 <mat-nav-list [ngClass]="productCategory.key.replace(' ', '-') + '-nav-list'">
     <span fxLayout="row" *ngFor="let product of productCategory.value">
