@@ -2,7 +2,7 @@
 
 ---
 | Table of Contents |
-| ---------- |
+| ----------- |
 | [Overview and Background](#background) |
 | [Material UI Expansion Panel](#mat-ui-expanse) |
 | [Angular Tools: ngFor, ngClass, and Interpolation](#ng-tools) |
