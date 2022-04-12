@@ -1,6 +1,7 @@
 # Category Expansion Panels: Generation and Testing
 
 ---
+
 | Table of Contents                                              |
 | -----------------                                              |
 | [Overview and Background](#background)                         |
