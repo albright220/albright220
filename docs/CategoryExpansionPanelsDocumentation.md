@@ -70,9 +70,11 @@ This will show up three times
 
 Angular [interpolation](https://angular.io/guide/interpolation?msclkid=12868734ba0911ecada4ec97a08d8748) allows you to embed expressions within html, dynamically showing the result of the expression as displayed text. The syntax for this is to add the expression between two sets of curly braces inside of a set of html tags, like so:
 
+{% raw %}
 ```HTML
 <open-tag> {{ expressionToEvaluate }} <close-tag>
 ```
+{% endraw %}
 
 As an example, if you define a string variable `greeting` within the typescript file:
 
@@ -82,9 +84,11 @@ const greeting: string = 'Hello, friend!'
 
 Then you can evaluate this variable and display it in the html using interpolation:
 
+{% raw %}
 ```HTML
 <p> {{ greeting }} <p>
 ```
+{% endraw %}
 
 This will display as:
 
@@ -96,6 +100,7 @@ Hello, friend!
 
 Now that we know what these three angular tools are and how they are used, let's learn how to generate our category expansion panels. We will start off by looking at a chunk of code from [Team Rocinante's 2nd Iteration Pantry App](https://github.com/UMM-CSci-3601-S22/it-2-rocinante), inside of the `product-list.component.html`:
 
+{% raw %}
 ```HTML
 <mat-accordion>
     <mat-expansion-panel *ngFor="let productCategory of (this.categoryNameMap | keyvalue)"
@@ -121,6 +126,7 @@ Now that we know what these three angular tools are and how they are used, let's
     </mat-expansion-panel>
 </mat-accordion>
 ```
+{% endraw %}
 
 ### Mat Expansion Panel
 
@@ -157,6 +163,7 @@ The `.replace(' ', '-')` is necessary to replace any spaces in category names wi
 
 Next let's look at the `<mat-expansion-panel-header>`:
 
+{% raw %}
 ```HTML
 <mat-expansion-panel-header>
     <mat-panel-title [ngClass]="productCategory.key.replace(' ', '-') + '-panel-title capitalize'">
@@ -164,19 +171,23 @@ Next let's look at the `<mat-expansion-panel-header>`:
     </mat-panel-title>
 </mat-expansion-panel-header>
 ```
+{% endraw %}
 
 We use the `<mat-panel-title>` tag to set the title text for our expansion panel. Just like with the `<mat-expansion-panel>`, we use `ngClass` to dynamically generate the CSS class names for our title. Here we add an additional class named `capitalize`.
 
 For the title text, we use Angular interpolation syntax to display the `productCategory.key`:
 
+{% raw %}
 ```HTML
 ...
     {{ productCategory.key }}
 ...
 ```
+{% endraw %}
 
 Lastly let's look at the `<mat-nav-list>`:
 
+{% raw %}
 ```HTML
 <mat-nav-list [ngClass]="productCategory.key.replace(' ', '-') + '-nav-list'">
     <span fxLayout="row" *ngFor="let product of productCategory.value">
@@ -190,6 +201,7 @@ Lastly let's look at the `<mat-nav-list>`:
     </span>
 </mat-nav-list>
 ```
+{% endraw %}
 
 Just like before, we use `ngClass` to dynamically generate unique names for each `<mat-nav-list>` based on the category. in the `<span>`, we also use `*ngFor` once again to iterate over each array of products mapped to each category. We then use interpolation to display values within each individual product object on each `<mat-list-item>`.
 
