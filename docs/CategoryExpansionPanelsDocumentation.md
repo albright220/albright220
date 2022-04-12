@@ -4,17 +4,17 @@
 
 | Table of Contents                                              |
 | -----------------                                              |
-| [Overview and Background](<#Overview and Background>)            |
-| [Material UI Expansion Panel](#mat-ui-expanse)                 |
-| [Angular Tools: ngFor, ngClass, and Interpolation](#ng-tools)  |
-| [Auto-generating Expansion Panels by Category](#create-panels) |
-| [Testing Expansion Panels With Cypress](#cy-testing)           |
+| [Overview and Background](#Overview-and-Background)            |
+| [Material UI Expansion Panel](#Material-UI-Expansion-Panel)    |
+| [Angular Tools: ngFor, ngClass, and Interpolation](#Angular-Tools:-ngFor,-ngClass,-and-Interpolation)  |
+| [Auto-generating Expansion Panels by Category](#Auto-generating-Expansion-Panels-by-Category) |
+| [Testing Expansion Panels With Cypress](#Testing-Expansion-Panels-With-Cypress) |
 
 ## Overview and Background
 
 In this documentation, we go over how to implement the [Material Design Expansion Panel](https://material.angular.io/components/expansion/overview) for use in displaying categorized lists of items (in our examples, arrays of categorized Product objects).
 
-### Material UI Expansion Panel {#mat-ui-expanse}
+### Material UI Expansion Panel
 
 #### What is a `<mat-expansion-panel>`?
 
@@ -22,7 +22,7 @@ A `<mat-expansion-panel>` is a component from the [Angular Material UI component
 
 When using multiple `<mat-expansion-panel>`, you can nest them within a `<mat-accordion>`, which allows you to control aspects of all panels such as opening and closing, and logically group them together.
 
-### Angular Tools: ngFor, ngClass, and Interpolation {#ng-tools}
+### Angular Tools: ngFor, ngClass, and Interpolation
 
 #### What is `ngForOf`?
 
@@ -96,7 +96,7 @@ This will display as:
 Hello, friend!
 ```
 
-## Auto-generating Expansion Panels by Category {#create-panels}
+## Auto-generating Expansion Panels by Category
 
 Now that we know what these three angular tools are and how they are used, let's learn how to generate our category expansion panels. We will start off by looking at a chunk of code from [Team Rocinante's 2nd Iteration Pantry App](https://github.com/UMM-CSci-3601-S22/it-2-rocinante), inside of the `product-list.component.html`:
 
@@ -205,7 +205,7 @@ Lastly let's look at the `<mat-nav-list>`:
 
 Just like before, we use `ngClass` to dynamically generate unique names for each `<mat-nav-list>` based on the category. in the `<span>`, we also use `*ngFor` once again to iterate over each array of products mapped to each category. We then use interpolation to display values within each individual product object on each `<mat-list-item>`.
 
-## Testing Expansion Panels With Cypress {#cy-testing}
+## Testing Expansion Panels With Cypress
 
 Testing expansion panels is similar to testing normal text on a page: we check that the expansion title has the correct text, and then we check that the contents have the correct text.
 
