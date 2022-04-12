@@ -1,7 +1,4 @@
-# Testing  
-## Markdown and  
-### Github Pages  
-
+# Albright220 Home Page
 
 **\[Links\]:**  
 [home](/../../)  
