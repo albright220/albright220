@@ -4,13 +4,13 @@
 
 | Table of Contents                                              |
 | -----------------                                              |
-| [Overview and Background](#background)                         |
+| [Overview and Background](<#Overview and Background>)            |
 | [Material UI Expansion Panel](#mat-ui-expanse)                 |
 | [Angular Tools: ngFor, ngClass, and Interpolation](#ng-tools)  |
 | [Auto-generating Expansion Panels by Category](#create-panels) |
 | [Testing Expansion Panels With Cypress](#cy-testing)           |
 
-## Overview and Background {#background}
+## Overview and Background
 
 In this documentation, we go over how to implement the [Material Design Expansion Panel](https://material.angular.io/components/expansion/overview) for use in displaying categorized lists of items (in our examples, arrays of categorized Product objects).
 
