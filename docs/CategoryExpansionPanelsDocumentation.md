@@ -4,11 +4,11 @@
 
 | Table of Contents                                              |
 | -----------------                                              |
-| [Overview and Background](#Overview-and-Background)            |
-| [Material UI Expansion Panel](#Material-UI-Expansion-Panel)    |
-| [Angular Tools](#Angular-Tools)  |
-| [Auto-generating Expansion Panels by Category](#Auto-generating-Expansion-Panels-by-Category) |
-| [Testing Expansion Panels With Cypress](#Testing-Expansion-Panels-With-Cypress) |
+| [Overview and Background](#overview-and-oackground)            |
+| [Material UI Expansion Panel](#material-ui-expansion-panel)    |
+| [Angular Tools](#angular-tools)  |
+| [Auto-generating Expansion Panels by Category](#auto-generating-expansion-panels-by-category) |
+| [Testing Expansion Panels With Cypress](#testing-expansion-panels-with-cypress) |
 
 ## Overview and Background
 
